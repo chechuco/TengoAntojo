@@ -1,0 +1,53 @@
+{
+  "name": "tengoantojo",
+  "version": "1.0.0",
+  "description": "Directorio de comidas/sitios, propio y compartido",
+  "main": "server.js",
+  "scripts": {
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "app": "node server",
+    "start": "concurrently \"npm run tsc:w\" \"npm run app\" ",
+    "test": "“echo \\”Error: no test specified\\” && exit 1\""
+  },
+  "author": "Josechu Carballedo, chechuco@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "@angular/common": "^4.3.6",
+    "@angular/compiler": "^4.3.6",
+    "@angular/core": "^4.3.6",
+    "@angular/forms": "^4.3.6",
+    "@angular/http": "^4.3.6",
+    "@angular/platform-browser": "^4.3.6",
+    "@angular/platform-browser-dynamic": "^4.3.6",
+    "@angular/router": "^4.3.6",
+    "@types/core-js": "0.9.36",
+    "@types/node": "^7.0.7",
+    "@types/socket.io-client": "^1.4.30",
+    "body-parser": "^1.17.2",
+    "compression": "^1.7.0",
+    "connect-flash": "^0.1.1",
+    "core-js": "2.4.1",
+    "ejs": "^2.5.7",
+    "express": "^4.15.4",
+    "express-session": "^1.15.5",
+    "method-override": "^2.3.9",
+    "mongoose": "^4.11.9",
+    "morgan": "^1.8.2",
+    "passport": "^0.4.0",
+    "passport-facebook": "^2.1.1",
+    "passport-google-oauth": "^1.0.0",
+    "passport-local": "^1.0.0",
+    "passport-twitter": "^1.0.4",
+    "reflect-metadata": "^0.1.10",
+    "rxjs": "^5.4.3",
+    "systemjs": "^0.20.18",
+    "zone.js": "^0.8.7"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^2.5.54",
+    "concurrently": "^3.5.0",
+    "traceur": "^0.0.111",
+    "typescript": "^2.5.2"
+  }
+}
